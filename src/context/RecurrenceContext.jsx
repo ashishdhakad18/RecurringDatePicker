@@ -1,34 +1,33 @@
-export function getRecurringDates({
-  frequency,
-  interval,
-  startDate,
-  endDate,
-  weekDays = []
-}) {
-  const start = new Date(startDate);
-  const end = endDate ? new Date(endDate) : new Date(start);
-  end.setFullYear(end.getFullYear() + 1); // fallback 1 year if no end
+// src/context/RecurrenceContext.jsx
+import React, { createContext, useContext, useState } from "react";
 
-  const result = [];
-  let current = new Date(start);
+const RecurrenceContext = createContext();
 
-  while (current <= end) {
-    const dayName = current.toLocaleDateString("en-US", { weekday: "short" });
+export const RecurrenceProvider = ({ children }) => {
+  const [frequency, setFrequency] = useState("daily");
+  const [interval, setInterval] = useState(1);
+  const [startDate, setStartDate] = useState("");
+  const [endDate, setEndDate] = useState("");
+  const [weekDays, setWeekDays] = useState([]);
 
-    if (frequency === "daily") {
-      result.push(new Date(current));
-      current.setDate(current.getDate() + parseInt(interval));
-    } else if (frequency === "weekly") {
-      if (weekDays.includes(dayName)) result.push(new Date(current));
-      current.setDate(current.getDate() + 1);
-    } else if (frequency === "monthly") {
-      result.push(new Date(current));
-      current.setMonth(current.getMonth() + parseInt(interval));
-    } else if (frequency === "yearly") {
-      result.push(new Date(current));
-      current.setFullYear(current.getFullYear() + parseInt(interval));
-    }
-  }
+  return (
+    <RecurrenceContext.Provider
+      value={{
+        frequency,
+        setFrequency,
+        interval,
+        setInterval,
+        startDate,
+        setStartDate,
+        endDate,
+        setEndDate,
+        weekDays,
+        setWeekDays
+      }}
+    >
+      {children}
+    </RecurrenceContext.Provider>
+  );
+};
 
-  return result;
-}
+export const useRecurrence = () => useContext(RecurrenceContext);
