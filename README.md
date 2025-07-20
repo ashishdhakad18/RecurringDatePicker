@@ -1,12 +1,72 @@
-# React + Vite
+# 📆 Recurring Date Picker – React Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A reusable recurring date picker component in React, inspired by apps like **TickTick**, allowing users to select recurring dates with flexible options.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✅ Choose recurrence types: **Daily, Weekly, Monthly, Yearly**
+- 🔁 Custom patterns: every _X_ days/weeks/months/years
+- 🗓️ Specific weekdays selection (e.g., Mon/Wed/Fri)
+- 📌 Patterns like “Second Tuesday of every month”
+- 📅 Start date and optional end date selection
+- 👀 Mini calendar preview of recurring dates
+- ♻️ Built using React + Tailwind CSS + React Context API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Demo
+
+🔗 **Live Preview**: [View on CodeSandbox](# 📆 Recurring Date Picker – React Component
+
+A reusable recurring date picker component in React, inspired by apps like **TickTick**, allowing users to select recurring dates with flexible options.
+
+---
+
+## 🚀 Features
+
+- ✅ Choose recurrence types: **Daily, Weekly, Monthly, Yearly**
+- 🔁 Custom patterns: every _X_ days/weeks/months/years
+- 🗓️ Specific weekdays selection (e.g., Mon/Wed/Fri)
+- 📌 Patterns like “Second Tuesday of every month”
+- 📅 Start date and optional end date selection
+- 👀 Mini calendar preview of recurring dates
+- ♻️ Built using React + Tailwind CSS + React Context API
+
+---
+
+## 📸 Demo
+
+🔗 **Live Preview**: [View on CodeSandbox](https://your-codesandbox-link.com)  
+🎥 **Video Walkthrough**: [Loom Recording](https://loom.com/your-video-link)
+
+---
+
+## 🛠 Tech Stack
+
+- ⚛️ **React.js**
+- 🎨 **Tailwind CSS**
+- 🌐 **React Context API** (for global state)
+- 🧠 **JavaScript Utility Functions** (for recurrence logic)
+
+---
+
+## 📂 Folder Structure
+
+)  
+🎥 **Video Walkthrough**: [Loom Recording](https://loom.com/your-video-link)
+
+---
+
+## 🛠 Tech Stack
+
+- ⚛️ **React.js**
+- 🎨 **Tailwind CSS**
+- 🌐 **React Context API** (for global state)
+- 🧠 **JavaScript Utility Functions** (for recurrence logic)
+
+---
+
+## 📂 Folder Structure
+
