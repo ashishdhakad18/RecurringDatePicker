@@ -39,7 +39,7 @@ A reusable recurring date picker component in React, inspired by apps like **Tic
 ## 📸 Demo
 
 🔗 **Live Preview**: [View on CodeSandbox](https://codesandbox.io/p/github/ashishdhakad18/RecurringDatePicker/main?import=true)  
-🎥 **Video Walkthrough**: [Loom Recording](https://loom.com/your-video-link)
+🎥 **Video Walkthrough**: [Loom Recording](https://www.loom.com/share/952b9cbca2374e389a2a497b8b05129c?sid=08b452a6-9593-4596-86d2-e938291f570e)
 
 ---
 
@@ -55,7 +55,7 @@ A reusable recurring date picker component in React, inspired by apps like **Tic
 ## 📂 Folder Structure
 
 )  
-🎥 **Video Walkthrough**: [Loom Recording](https://loom.com/your-video-link)
+🎥 **Video Walkthrough**: [Loom Recording](https://www.loom.com/share/952b9cbca2374e389a2a497b8b05129c?sid=08b452a6-9593-4596-86d2-e938291f570e)
 
 ---
 
