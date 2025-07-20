@@ -7,7 +7,7 @@ import MiniCalendarPreview from "./MiniCalendarPreview";
 
 const RecurringDatePicker = () => {
   return (
-    <div className="bg-white p-4 rounded-lg shadow-md space-y-4">
+    <div className="bg-blue-100 p-4 rounded-lg shadow-md space-y-4">
       <RecurrenceOptions />
       <CustomRepeatSettings />
       <DaySelector />
